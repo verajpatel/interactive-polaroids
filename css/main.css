@@ -3,22 +3,23 @@ html {
 
   font-family: sans-serif;
 }
+
 .polaroid:nth-child(1) {
   left: 20%;
-  top: 3%;
+  top: 100px;
   transform: rotate(-10deg);
 }
 
 .polaroid:nth-child(2) {
   left: 30%;
-  top: 4%;
+  top: 150px;
   transform: rotate(10deg);
   z-index: 3;
 }
 
 .polaroid:nth-child(3) {
   left: 40%;
-  top: 3%;
+  top: 100px;
   transform: rotate(30deg);
 }
 
